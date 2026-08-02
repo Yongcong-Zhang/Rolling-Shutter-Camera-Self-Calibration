@@ -307,23 +307,26 @@
 </section>
 
 
-<!-- Teaser video-->
+<!-- Teaser image -->
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <!-- TODO: Replace with your teaser video -->
-      <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
-        <!-- TODO: Add your video file path here -->
-        <source src="static/videos/banner_video.mp4" type="video/mp4">
-      </video>
-      <!-- TODO: Replace with your video description -->
-      <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+      <!-- TODO: Replace with your teaser image -->
+      <img src="static/images/rssc_pipline.png" alt="RSSC Pipeline" 
+           style="width: 100%; height: auto; border-radius: 8px;">
+      <!-- 图片描述文字 -->
+      <h2 class="subtitle has-text-centered" style="text-align: justify; text-justify: inter-word; max-width: 900px; margin: 1.5rem auto 0 auto;">
+        Computation pipeline of the proposed Rolling Shutter Camera Self-Calibration (RSSC). 
+        Given a sequence of RS images, an initial reconstruction of the camera intrinsics 
+        <b>K</b>, camera poses <b>T</b>, and 3D point coordinates <b>P</b> is first obtained. 
+        It is then refined by the RSSC framework, where a self-calibrating BA jointly estimates 
+        the readout time ratio <b>&gamma;</b>. The estimated RS camera parameters can subsequently 
+        be used for downstream tasks such as SLAM, SfM, and RS image correction.
       </h2>
     </div>
   </div>
 </section>
-<!-- End teaser video -->
+<!-- End teaser image -->
 
 <!-- Paper abstract -->
 <section class="section hero is-light">
