@@ -2,7 +2,7 @@
 
 This paper was published in ECCV 2026 (oral).
 
-## Project Page
+## 🌐 Project Page
 https://github.com/Yongcong-Zhang/RSSC
 
 ## What's New
