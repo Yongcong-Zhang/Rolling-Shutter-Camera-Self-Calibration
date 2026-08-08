@@ -3,6 +3,9 @@
 This paper was published in ECCV 2026 (oral).
 
 ## 🌐 Project Page
+https://yongcong-zhang.github.io/Rolling-Shutter-Camera-Self-Calibration/
+
+## 🌐 Code Page
 https://github.com/Yongcong-Zhang/RSSC
 
 ## 📄 Paper
